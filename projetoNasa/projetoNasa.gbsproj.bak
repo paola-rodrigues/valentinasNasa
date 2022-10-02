@@ -2335,13 +2335,13 @@
                             "args": {
                                 "text": [
                                     "Hi, I'm\nMariana!",
-                                    "I'll tell you\nthe story of\nspaceship that\n\"touched\" the sun...",
+                                    "I'll tell you\nthe story of\nspaceship that\n\"touched\" the sun..",
                                     "Parker Solar\nprobe - probe\nspace-\nbuilt by",
                                     "NASA was used\nto get this\nhistoric feat.",
                                     "she flew through\nof the atmosphere\ntop of the sun\n- the crown -",
                                     "and studied the\nparticles and the\nmagnetic fields",
                                     "Were you curious?",
-                                    "Find \nLidiane\nto know more\nof this story"
+                                    "Find Lidiane\nto know more\nof this story"
                                 ],
                                 "avatarId": ""
                             },
@@ -2386,12 +2386,12 @@
                                     "Hi, I'm Amanda.\nLet's continue...",
                                     "How is this\nequipment no\nmelted?",
                                     "The answer is in\nheat shield and\na system that\nhelps protect",
-                                    "from the intense light\nsolar, but still\nallows the\ncoronal material",
-                                    "\"touch\" on Parker.\nThe crown has a\ntemperature too much\nhigh and one",
+                                    "from the intense \nlight solar, but \nstill allows the\ncoronal material",
+                                    "\"touch\" on Parker.\nThe crown has a\ntemperature too\nmuch high and one",
                                     "very density\nlow. The shield\nprobe heat\ncan do   ",
                                     "how the\ntemperature\nmaximum it reaches\nthe probe is from",
-                                    "2,500F and within\nstay in\ntemperature\ncomfortable environment.",
-                                    "go and\nfind \nMP board",
+                                    "2,500F and within\nstay in temperature\ncomfortable\n environment.",
+                                    "go and find \nMP board",
                                     "Mission accomplished!"
                                 ],
                                 "avatarId": ""
@@ -2431,12 +2431,12 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Olá, sou Ana,\ncientista da NASA.",
-                                    "A Parker ainda\ndescobriu que essa\nenrugação se \nalinham com ",
-                                    "atividade solar\ne ajuda os\ncientistas a \naprender os eventos",
-                                    "no sol que afetam\na atmosfera e o\nvento solar.",
-                                    "Sua próxima\nmissão é encontrar\nnosso especialista\nda NASA",
-                                    "Missão concluída!"
+                                    "Hi, I'm Ana,\nNASA scientist.",
+                                    "Parker still\nfound out that this\nwrinkle if\nalign with",
+                                    "solar activity\nand help the\nscientists to\nlearn the events",
+                                    "in the sun that\naffect the \natmosphere and the\nsolar wind.",
+                                    "your next\nmission is to find\nour specialist\nfrom NASA",
+                                    "Mission accomplished!"
                                 ],
                                 "avatarId": ""
                             },
@@ -2468,14 +2468,14 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Olá, eu sou Carlos\nSou especialista\nda NASA.\n",
-                                    "A história da \nParker não acabou\nainda...",
-                                    "O novo ciclo \nsolar. que começou\nem dezembro de \n2019, vai ",
-                                    "continuar se \naproximando do sol\ne mergulhando mais\nfundo na corona.",
-                                    "até sua órbita\nfinal em 2025.\nEstá previsto\natingir o pico em ",
-                                    "julho de 2025, o\nque significa\num aumento na \natividade solar.",
-                                    "Vamos esperar \naté lá, para \ndescobrir do que \no sol é capaz.",
-                                    "Volte sempre \nà NASA! Adoramos\nreceber a sua \nvisita."
+                                    "Hi, I'm Carlos\nI'm an expert\nfrom NASA.\n",
+                                    "the story of\nParker is not over\nstill....",
+                                    "the new cycle\nsolar. that started\nin december\n2019, go",
+                                    "continue if\napproaching the \nsun and diving \ndeeper background ",
+                                    "in corona. up to \nyour orbit end in\n2025. It is planned\npeak in",
+                                    "July 2025, the\nthat means\nan increase in\nsolar activity.",
+                                    "Let's wait\nuntil then, for\nfind out what\nthe sun is capable.",
+                                    "Check back often\nto NASA! we love\nreceive your\nvisit."
                                 ],
                                 "avatarId": ""
                             },
@@ -2581,10 +2581,10 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Olá, sou Ana,\ncientista da NASA.",
-                                    "A Parker ainda\ndescobriu que essa\nenrugação se \nalinham com ",
-                                    "atividade solar\ne ajuda os\ncientistas a \naprender os eventos",
-                                    "no sol que afetam\na atmosfera e o\nvento solar."
+                                    "Hi, I'm Ana,\nNASA scientist.",
+                                    "Parker still\nfound out that this\nwrinkle if\nalign with",
+                                    "solar activity\nand help the\nscientists to\nlearn the events",
+                                    "in the sun that affect\nthe atmosphere and the\nsolar wind."
                                 ],
                                 "avatarId": ""
                             },
@@ -2625,12 +2625,12 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Mas, o que encontraram \nno sol?\n",
-                                    "Em 2019 a Parker \nencontrou \nestruturas \nmagnéticas em ",
-                                    "zig-zag no vento\nsolar.Os zig-zags \nsão manchas \nligadas com ",
-                                    "funis magnéticos\nque mergulham na\nsuperfície visível\ndo sol.",
-                                    "Sua próxima missão \né conversar nosso \ncientista espacial.",
-                                    "Missão concluída!"
+                                    "But what did they find?\nIn the sun?\n",
+                                    "In 2019 Parker\nfound\nstructures\nmagnetic in",
+                                    "zigzag in the wind\nsolar.The zig-zags\nare stains\nlinked with",
+                                    "magnetic funnels\nthat dive into\nvisible surface\nof the sun.",
+                                    "your next mission\nis to talk our\nspace scientist.",
+                                    "Mission accomplished!"
                                 ],
                                 "avatarId": ""
                             },
