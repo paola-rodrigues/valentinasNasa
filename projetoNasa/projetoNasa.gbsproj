@@ -581,6 +581,95 @@
                     "id": "5dcdae08-0a6d-4ee6-a0e9-a0549730f1f0",
                     "x": 2,
                     "y": 4
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "d92484cd-7dec-4222-9873-d0c743a8b9c0",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 255,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "14",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [],
+                                "false": []
+                            },
+                            "id": "49853602-a070-49dc-9487-cf280693cbc1"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "a42dc0a7-7ab0-44f5-8932-486159183026",
+                    "x": 2,
+                    "y": 7
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "d92484cd-7dec-4222-9873-d0c743a8b9c0",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 255,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [],
+                                "false": []
+                            },
+                            "id": "88d51a12-ae00-4027-ad13-446fd13064a9"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "def1649a-69cb-48ae-ac35-1cb90c3ef6fc",
+                    "x": 2,
+                    "y": 10
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "d92484cd-7dec-4222-9873-d0c743a8b9c0",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "14d2ca53-f071-4ccd-90c1-ed0ab2ec7d42",
+                    "x": 2,
+                    "y": 13
                 }
             ],
             "triggers": [],
@@ -1253,7 +1342,8 @@
                                             "x": 18,
                                             "y": 22,
                                             "direction": "up",
-                                            "fadeSpeed": "2"
+                                            "fadeSpeed": "2",
+                                            "__collapse": false
                                         },
                                         "id": "da7f16fd-6458-41f5-aa09-b5a2d85c0798"
                                     }
@@ -1546,7 +1636,7 @@
                 0,
                 0,
                 0,
-                15,
+                0,
                 15,
                 0,
                 0,
@@ -1576,7 +1666,6 @@
                 0,
                 0,
                 0,
-                15,
                 0,
                 0,
                 0,
@@ -1608,13 +1697,14 @@
                 0,
                 0,
                 0,
+                0,
                 15,
                 0,
                 0,
                 0,
                 0,
-                15,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -1646,8 +1736,8 @@
                 0,
                 0,
                 0,
-                15,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -1679,8 +1769,8 @@
                 0,
                 0,
                 0,
-                15,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -2010,6 +2100,7 @@
                 0,
                 0,
                 0,
+                15,
                 0,
                 0,
                 0,
@@ -2075,7 +2166,6 @@
                 0,
                 0,
                 0,
-                15,
                 15,
                 0,
                 0,
@@ -2234,14 +2324,6 @@
                     "collisionGroup": "",
                     "script": [
                         {
-                            "command": "EVENT_ACTOR_EMOTE",
-                            "args": {
-                                "actorId": "$self$",
-                                "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
-                            },
-                            "id": "925296ee-65eb-4da4-897f-792037dcfd5a"
-                        },
-                        {
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
@@ -2252,20 +2334,28 @@
                                     "Ela voou através \nda atmosfera \nsuperior do sol\n- a coroa - ",
                                     "e estudou as \npartículas e os \ncampos magnéticos.",
                                     "Ficou curioso(a)?",
-                                    "Encontre a \nLidiane no lab 1 \npara saber mais \ndessa história.",
-                                    "Missão concluída!"
+                                    "Encontre a \nLidiane no lab 1 \npara saber mais \ndessa história."
                                 ],
                                 "avatarId": ""
                             },
                             "id": "456054a5-91b0-4b43-9557-be7eb10f00d0"
                         },
                         {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Missão concluída!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "75339678-c42e-4942-93d3-6be183f3847c"
+                        },
+                        {
                             "command": "EVENT_SET_TRUE",
                             "args": {
-                                "variable": "L0",
-                                "__label": "falarMariana=verdadeiro"
+                                "variable": "L0"
                             },
-                            "id": "50df79f6-9477-418a-aed9-ac77b15d2e95"
+                            "id": "4070412d-39bc-44f7-a5f9-75aa924802ff"
                         }
                     ],
                     "startScript": [],
@@ -2274,8 +2364,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "50645113-f3a1-4e3f-95b9-1ac793d1de63",
-                    "x": 22,
-                    "y": 6
+                    "x": 23,
+                    "y": 19
                 },
                 {
                     "name": "",
@@ -2307,6 +2397,13 @@
                                 "avatarId": ""
                             },
                             "id": "01181658-fbfb-4b91-8a56-c12f55489413"
+                        },
+                        {
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "L0"
+                            },
+                            "id": "cc83c4d9-8e75-4cfa-bd15-e3100698af1d"
                         }
                     ],
                     "startScript": [],
@@ -2316,7 +2413,7 @@
                     "hit3Script": [],
                     "id": "a359f753-1731-4373-b626-e93de5c62468",
                     "x": 23,
-                    "y": 19
+                    "y": 6
                 },
                 {
                     "name": "",
@@ -2393,6 +2490,196 @@
                     "id": "0ee9c340-e25a-4758-af36-6078521743ec",
                     "x": 3,
                     "y": 21
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "36eee64c-8e06-42fc-8ff5-fd4131938b65",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "4",
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_SET_TRUE",
+                                        "args": {
+                                            "variable": "6"
+                                        },
+                                        "id": "24c3ca37-86f5-4bf6-972b-2abda207ebc9"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Oi, sou a Lidiane.\nVocê já sabe\no que é a \nParker Solar...",
+                                                "Ela foi lançada\nem 2018, para\najudar os \ncientistas a ",
+                                                "descobrirem \ninformações sobre \no sol e sua \ninfluência no",
+                                                "sistema solar.\nA Parker viajou \nmais perto do sol \ndo que qualquer ",
+                                                "outro objeto.\n3 anos após o \nlançamento, a \nParker finalmente \nchegou!",
+                                                "Quer saber mais?\nFale com Dani!\n"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "6f6d2eb3-d326-4a2f-b08c-5d8d14c4767d"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Missão concluída!"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "b14f6d65-4c9f-4a13-b220-935594dd1c06"
+                                    },
+                                    {
+                                        "command": "EVENT_INC_VALUE",
+                                        "args": {
+                                            "variable": "11"
+                                        },
+                                        "id": "4a1058b7-24f8-4935-a581-a55131928ce3"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Seja bem vindo\nà CRADT. Aqui \nvocê resolve",
+                                                "seus assuntos\nacadêmicos, como\ndiplomas e \ndeclarações.",
+                                                "Vejo que você \nainda não falou \ncom o coordenador \ndo seu curso.",
+                                                "Procure-o no bloco\nAdministrativo no\npiso superior."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "eeca8878-3057-4b84-8de6-c840986310a3"
+                                    }
+                                ]
+                            },
+                            "id": "06e0806f-dc4c-4b56-94ec-b3c71ec9dccf"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "50723f64-c45c-41e5-8d1b-4150e5b777b7",
+                    "x": 20,
+                    "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "9c5124c2-81f4-4263-9f77-8afa45319345",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "fec83514-59d5-42a5-8fd8-8e952769dfdf",
+                    "x": 13,
+                    "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "6df998c1-4e47-4dcc-9a17-4e4c942c3940",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Olá, sou Ana,\ncientista da NASA.",
+                                    "A Parker ainda\ndescobriu que essa\nenrugação se \nalinham com ",
+                                    "atividade solar\ne ajuda os\ncientistas a \naprender os eventos",
+                                    "no sol que afetam\na atmosfera e o\nvento solar."
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "693b0fd6-3ec6-44e9-87e7-8c5b17fb7be8"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "e80baac2-b617-4bfd-ab14-471761e25c93",
+                    "x": 1,
+                    "y": 5
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "234e8870-11b1-47a3-a486-313d3d5b474d",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "collisionGroup": "",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": "",
+                                "avatarId": "",
+                                "__collapse": true
+                            },
+                            "id": "c780b899-9c7e-4815-bf82-d575a7533aae"
+                        },
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Mas, o que encontraram \nno sol?\n",
+                                    "Em 2019 a Parker \nencontrou \nestruturas \nmagnéticas em ",
+                                    "zig-zag no vento\nsolar.Os zig-zags \nsão manchas \nligadas com ",
+                                    "funis magnéticos\nque mergulham na\nsuperfície visível\ndo sol.",
+                                    "Sua próxima missão \né conversar nosso \ncientista espacial.",
+                                    "Missão concluída!"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "b15a01b8-1719-4f15-81ed-f4c928e5efff"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "8ea2551d-2572-4640-ab33-9449a761f242",
+                    "x": 5,
+                    "y": 2
                 }
             ],
             "triggers": [
@@ -2421,7 +2708,7 @@
                 {
                     "name": "",
                     "id": "c5552d4b-1053-474d-833c-33f2e196fe19",
-                    "x": 24,
+                    "x": 25,
                     "y": 7,
                     "width": 1,
                     "height": 2,
@@ -2429,12 +2716,36 @@
                         {
                             "command": "EVENT_IF_TRUE",
                             "args": {
-                                "variable": "L0",
-                                "__collapseElse": true
+                                "variable": "14",
+                                "__collapseElse": false,
+                                "__collapse": false
                             },
                             "children": {
-                                "true": [],
-                                "false": []
+                                "true": [
+                                    {
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "10fea892-5f5c-43af-a2a6-cedef1d0b69a",
+                                            "x": 20,
+                                            "y": 9,
+                                            "direction": "up",
+                                            "fadeSpeed": "2"
+                                        },
+                                        "id": "a4cd6fc9-201b-4a54-8066-c07c371fae04"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Fale com a\nMariana para\nliberar o acesso."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "0b7b976b-fc3b-4be1-9227-8b2f939c605a"
+                                    }
+                                ]
                             },
                             "id": "57591e3c-e8a7-4a37-8963-0e5c96033743"
                         }
@@ -2444,7 +2755,7 @@
                 {
                     "name": "",
                     "id": "31e24633-5644-433e-87fb-023e956f7c5f",
-                    "x": 24,
+                    "x": 25,
                     "y": 20,
                     "width": 1,
                     "height": 2,
@@ -2453,11 +2764,34 @@
                             "command": "EVENT_IF_TRUE",
                             "args": {
                                 "variable": "L0",
-                                "__collapseElse": true
+                                "__collapseElse": false
                             },
                             "children": {
-                                "true": [],
-                                "false": []
+                                "true": [
+                                    {
+                                        "command": "EVENT_SWITCH_SCENE",
+                                        "args": {
+                                            "sceneId": "4fa9b20b-c896-41aa-b49e-efacdfb61501",
+                                            "x": 19,
+                                            "y": 8,
+                                            "direction": "left",
+                                            "fadeSpeed": "2"
+                                        },
+                                        "id": "3e01ea23-aa32-4663-a9ad-78369bffeba7"
+                                    }
+                                ],
+                                "false": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Fale com a\nAmanda para\nliberar o acesso."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "dfac73c0-7607-45d0-9a14-553859e02a22"
+                                    }
+                                ]
                             },
                             "id": "32103578-c191-489f-9fe4-b6c4fbdc5f6b"
                         }
@@ -3076,120 +3410,33 @@
             ],
             "autoFadeSpeed": 1,
             "id": "10fea892-5f5c-43af-a2a6-cedef1d0b69a",
-            "x": 710.8863132838185,
-            "y": 322.4938660946752,
-            "actors": [
+            "x": 711.8265877488884,
+            "y": 324.37441502481516,
+            "actors": [],
+            "triggers": [
                 {
                     "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "36eee64c-8e06-42fc-8ff5-fd4131938b65",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
+                    "id": "ad9e5783-8c06-4b25-b2bc-78e1d34c777f",
+                    "x": 24,
+                    "y": 7,
+                    "width": 1,
+                    "height": 4,
                     "script": [
                         {
-                            "command": "EVENT_IF_TRUE",
+                            "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "variable": "4",
-                                "__collapseElse": false
+                                "sceneId": "d289fe0d-6413-4e68-93e0-f6d923a55315",
+                                "x": 21,
+                                "y": 8,
+                                "direction": "down",
+                                "fadeSpeed": "2"
                             },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_SET_TRUE",
-                                        "args": {
-                                            "variable": "6"
-                                        },
-                                        "id": "24c3ca37-86f5-4bf6-972b-2abda207ebc9"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Oi, sou a Lidiane.\nVocê já sabe\no que é a \nParker Solar...",
-                                                "Ela foi lançada\nem 2018, para\najudar os \ncientistas a ",
-                                                "descobrirem \ninformações sobre \no sol e sua \ninfluência no",
-                                                "sistema solar.\nA Parker viajou \nmais perto do sol \ndo que qualquer ",
-                                                "outro objeto.\n3 anos após o \nlançamento, a \nParker finalmente \nchegou!",
-                                                "Quer saber mais?\nFale com Dani!\n"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "6f6d2eb3-d326-4a2f-b08c-5d8d14c4767d"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Missão concluída!"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "b14f6d65-4c9f-4a13-b220-935594dd1c06"
-                                    },
-                                    {
-                                        "command": "EVENT_INC_VALUE",
-                                        "args": {
-                                            "variable": "11"
-                                        },
-                                        "id": "4a1058b7-24f8-4935-a581-a55131928ce3"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Seja bem vindo\nà CRADT. Aqui \nvocê resolve",
-                                                "seus assuntos\nacadêmicos, como\ndiplomas e \ndeclarações.",
-                                                "Vejo que você \nainda não falou \ncom o coordenador \ndo seu curso.",
-                                                "Procure-o no bloco\nAdministrativo no\npiso superior."
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "eeca8878-3057-4b84-8de6-c840986310a3"
-                                    }
-                                ]
-                            },
-                            "id": "06e0806f-dc4c-4b56-94ec-b3c71ec9dccf"
+                            "id": "a224846b-5ee0-4d48-8062-f8ae06344b18"
                         }
                     ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "50723f64-c45c-41e5-8d1b-4150e5b777b7",
-                    "x": 13,
-                    "y": 8
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "9c5124c2-81f4-4263-9f77-8afa45319345",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "fec83514-59d5-42a5-8fd8-8e952769dfdf",
-                    "x": 3,
-                    "y": 18
+                    "leaveScript": []
                 }
             ],
-            "triggers": [],
             "script": [
                 {
                     "command": "EVENT_TEXT",
@@ -3809,113 +4056,33 @@
             ],
             "autoFadeSpeed": 1,
             "id": "4fa9b20b-c896-41aa-b49e-efacdfb61501",
-            "x": 304.29979459418826,
+            "x": 303.35952012911827,
             "y": 690.2085716134782,
-            "actors": [
+            "actors": [],
+            "triggers": [
                 {
                     "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "234e8870-11b1-47a3-a486-313d3d5b474d",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
+                    "id": "9cda8600-fde0-462c-a99e-953de872efa9",
+                    "x": 24,
+                    "y": 8,
+                    "width": 1,
+                    "height": 3,
                     "script": [
                         {
-                            "command": "EVENT_TEXT",
+                            "command": "EVENT_SWITCH_SCENE",
                             "args": {
-                                "text": "",
-                                "avatarId": "",
-                                "__collapse": true
+                                "sceneId": "d289fe0d-6413-4e68-93e0-f6d923a55315",
+                                "x": 21,
+                                "y": 21,
+                                "direction": "",
+                                "fadeSpeed": "2"
                             },
-                            "id": "c780b899-9c7e-4815-bf82-d575a7533aae"
-                        },
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Mas, o que encontraram \nno sol?\n",
-                                    "Em 2019 a Parker \nencontrou \nestruturas \nmagnéticas em ",
-                                    "zig-zag no vento\nsolar.Os zig-zags \nsão manchas \nligadas com ",
-                                    "funis magnéticos\nque mergulham na\nsuperfície visível\ndo sol.",
-                                    "Sua próxima missão \né conversar nosso \ncientista espacial.",
-                                    "Missão concluída!"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "b15a01b8-1719-4f15-81ed-f4c928e5efff"
+                            "id": "12496bbd-0dae-46b7-ae0f-8a8bd07cf617"
                         }
                     ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "8ea2551d-2572-4640-ab33-9449a761f242",
-                    "x": 4,
-                    "y": 8
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "0fd09976-812b-4939-b064-5d3699665935",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "670bebad-1171-4988-8e12-cedcadab94d2",
-                    "x": 1,
-                    "y": 9
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "6df998c1-4e47-4dcc-9a17-4e4c942c3940",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Olá, sou Ana,\ncientista da NASA.",
-                                    "A Parker ainda\ndescobriu que essa\nenrugação se \nalinham com ",
-                                    "atividade solar\ne ajuda os\ncientistas a \naprender os eventos",
-                                    "no sol que afetam\na atmosfera e o\nvento solar."
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "693b0fd6-3ec6-44e9-87e7-8c5b17fb7be8"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "e80baac2-b617-4bfd-ab14-471761e25c93",
-                    "x": 21,
-                    "y": 14
+                    "leaveScript": []
                 }
             ],
-            "triggers": [],
             "script": [
                 {
                     "command": "EVENT_TEXT",
@@ -16938,6 +17105,10 @@
             "name": "jogoFinal"
         },
         {
+            "id": "14",
+            "name": "falarMariana"
+        },
+        {
             "id": "5f27840e-9485-4518-bc03-ec582a7e498d__L0",
             "name": "biblioEscolha"
         },
@@ -17020,6 +17191,18 @@
         {
             "id": "50645113-f3a1-4e3f-95b9-1ac793d1de63__L0",
             "name": "falarMariana"
+        },
+        {
+            "id": "31e24633-5644-433e-87fb-023e956f7c5f__L0",
+            "name": "falarAmanda"
+        },
+        {
+            "id": "def1649a-69cb-48ae-ac35-1cb90c3ef6fc__L0",
+            "name": "falarAmanda"
+        },
+        {
+            "id": "a359f753-1731-4373-b626-e93de5c62468__L0",
+            "name": "falarAmanda"
         }
     ],
     "engineFieldValues": [
@@ -17037,9 +17220,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 151,
-        "worldScrollY": 100,
-        "zoom": 106.35192565030229,
+        "worldScrollX": 293,
+        "worldScrollY": 467,
+        "zoom": 117.38104508226479,
         "customColorsEnabled": true,
         "sgbEnabled": true,
         "customHead": "",
