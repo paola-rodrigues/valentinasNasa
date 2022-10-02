@@ -1269,12 +1269,12 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Olá! Seja bem \nvindo(a) a NASA!",
-                                    "Para ter acesso a \nessa experiência \ngalática, você \nprecisa",
-                                    "passar pela \nentrada ao lado.",
-                                    "Experimente\ninteragir com os\nnossos cientistas \ne explore os \nlocais!",
-                                    "Entrada liberada! ",
-                                    "Sua nova missão \né encontrar a \nMariana"
+                                    "Hi! be well\ncoming to NASA!",
+                                    "To have access to\nthis experience\ngalactic you\nneed",
+                                    "go through\nside entrance.",
+                                    "try it\ninteract with the\nour scientists\nand explore the\nlocations!",
+                                    "Free entry!",
+                                    "Your new mission\nis to find the\nMariana"
                                 ],
                                 "avatarId": "",
                                 "__collapse": false
@@ -1285,7 +1285,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Missão concluída!"
+                                    "Mission accomplished!"
                                 ],
                                 "avatarId": "",
                                 "__collapse": false
@@ -1678,26 +1678,26 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
+                15,
                 15,
                 0,
                 0,
@@ -2324,17 +2324,24 @@
                     "collisionGroup": "",
                     "script": [
                         {
+                            "command": "EVENT_SET_TRUE",
+                            "args": {
+                                "variable": "L0"
+                            },
+                            "id": "4070412d-39bc-44f7-a5f9-75aa924802ff"
+                        },
+                        {
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Olá, sou a \nMariana!",
-                                    "Vou te contar\na história da \nnave espacial que \n\"tocou\" o sol...",
-                                    "A Parker Solar\nProbe - sonda \nespacial-\nconstruido pela",
-                                    "NASA foi usada\npara conseguir esse \nfeito históico.",
-                                    "Ela voou através \nda atmosfera \nsuperior do sol\n- a coroa - ",
-                                    "e estudou as \npartículas e os \ncampos magnéticos.",
-                                    "Ficou curioso(a)?",
-                                    "Encontre a \nLidiane no lab 1 \npara saber mais \ndessa história."
+                                    "Hi, I'm\nMariana!",
+                                    "I'll tell you\nthe story of\nspaceship that\n\"touched\" the sun..",
+                                    "Parker Solar\nprobe - probe\nspace-\nbuilt by",
+                                    "NASA was used\nto get this\nhistoric feat.",
+                                    "she flew through\nof the atmosphere\ntop of the sun\n- the crown -",
+                                    "and studied the\nparticles and the\nmagnetic fields",
+                                    "Were you curious?",
+                                    "Find Lidiane\nto know more\nof this story"
                                 ],
                                 "avatarId": ""
                             },
@@ -2344,18 +2351,11 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Missão concluída!"
+                                    "Mission accomplished!"
                                 ],
                                 "avatarId": ""
                             },
                             "id": "75339678-c42e-4942-93d3-6be183f3847c"
-                        },
-                        {
-                            "command": "EVENT_SET_TRUE",
-                            "args": {
-                                "variable": "L0"
-                            },
-                            "id": "4070412d-39bc-44f7-a5f9-75aa924802ff"
                         }
                     ],
                     "startScript": [],
@@ -2365,7 +2365,7 @@
                     "hit3Script": [],
                     "id": "50645113-f3a1-4e3f-95b9-1ac793d1de63",
                     "x": 23,
-                    "y": 19
+                    "y": 18
                 },
                 {
                     "name": "",
@@ -2383,16 +2383,16 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Olá, sou a Amanda.\nVamos continuar...",
-                                    "Como que esse\nequipamento não \nderreteu? ",
-                                    "A resposta está no\nescudo de calor e\num sistema que \najuda a proteger",
-                                    "da intensa luz \nsolar, mas ainda \npermite que o\nmaterial coronal",
-                                    "\"toque\" na Parker.\nA coroa tem uma\ntemperatura muito\nalta e uma ",
-                                    "densidade muito \nbaixa. O escudo \nde calor da sonda \nconsegue fazer   ",
-                                    "com que a\ntemperatura \nmáximaa que atinge\na sonda seja de ",
-                                    "2.500Fº e dentro\nfique na \ntemperatura \nambiente confortável.",
-                                    "Vá ao lab 2 e \nencontre a \nplaca MP",
-                                    "Missão concluída!"
+                                    "Hi, I'm Amanda.\nLet's continue...",
+                                    "How is this\nequipment no\nmelted?",
+                                    "The answer is in\nheat shield and\na system that\nhelps protect",
+                                    "from the intense \nlight solar, but \nstill allows the\ncoronal material",
+                                    "\"touch\" on Parker.\nThe crown has a\ntemperature too\nmuch high and one",
+                                    "very density\nlow. The shield\nprobe heat\ncan do   ",
+                                    "how the\ntemperature\nmaximum it reaches\nthe probe is from",
+                                    "2,500F and within\nstay in temperature\ncomfortable\n environment.",
+                                    "go and find \nMP board",
+                                    "Mission accomplished!"
                                 ],
                                 "avatarId": ""
                             },
@@ -2419,7 +2419,7 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "6df998c1-4e47-4dcc-9a17-4e4c942c3940",
+                    "spriteSheetId": "e2360847-cbed-4b52-90cd-148004b8f57a",
                     "direction": "down",
                     "moveSpeed": 1,
                     "animSpeed": 15,
@@ -2431,12 +2431,12 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Olá, sou Ana,\ncientista da NASA.",
-                                    "A Parker ainda\ndescobriu que essa\nenrugação se \nalinham com ",
-                                    "atividade solar\ne ajuda os\ncientistas a \naprender os eventos",
-                                    "no sol que afetam\na atmosfera e o\nvento solar.",
-                                    "Sua próxima\nmissão é encontrar\nnosso especialista\nda NASA",
-                                    "Missão concluída!"
+                                    "Hi, I'm Ana,\nNASA scientist.",
+                                    "Parker still\nfound out that this\nwrinkle if\nalign with",
+                                    "solar activity\nand help the\nscientists to\nlearn the events",
+                                    "in the sun that\naffect the \natmosphere and the\nsolar wind.",
+                                    "your next\nmission is to find\nour specialist\nfrom NASA",
+                                    "Mission accomplished!"
                                 ],
                                 "avatarId": ""
                             },
@@ -2468,14 +2468,14 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Olá, eu sou Carlos\nSou especialista\nda NASA.\n",
-                                    "A história da \nParker não acabou\nainda...",
-                                    "O novo ciclo \nsolar. que começou\nem dezembro de \n2019, vai ",
-                                    "continuar se \naproximando do sol\ne mergulhando mais\nfundo na corona.",
-                                    "até sua órbita\nfinal em 2025.\nEstá previsto\natingir o pico em ",
-                                    "julho de 2025, o\nque significa\num aumento na \natividade solar.",
-                                    "Vamos esperar \naté lá, para \ndescobrir do que \no sol é capaz.",
-                                    "Volte sempre \nà NASA! Adoramos\nreceber a sua \nvisita."
+                                    "Hi, I'm Carlos\nI'm an expert\nfrom NASA.\n",
+                                    "the story of\nParker is not over\nstill....",
+                                    "the new cycle\nsolar. that started\nin december\n2019, go",
+                                    "continue if\napproaching the \nsun and diving \ndeeper background ",
+                                    "in corona. up to \nyour orbit end in\n2025. It is planned\npeak in",
+                                    "July 2025, the\nthat means\nan increase in\nsolar activity.",
+                                    "Let's wait\nuntil then, for\nfind out what\nthe sun is capable.",
+                                    "Check back often\nto NASA! we love\nreceive your\nvisit."
                                 ],
                                 "avatarId": ""
                             },
@@ -2522,12 +2522,12 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Oi, sou a Lidiane.\nVocê já sabe\no que é a \nParker Solar...",
-                                                "Ela foi lançada\nem 2018, para\najudar os \ncientistas a ",
-                                                "descobrirem \ninformações sobre \no sol e sua \ninfluência no",
-                                                "sistema solar.\nA Parker viajou \nmais perto do sol \ndo que qualquer ",
-                                                "outro objeto.\n3 anos após o \nlançamento, a \nParker finalmente \nchegou!",
-                                                "Quer saber mais?\nFale com Dani!\n"
+                                                "Hi, I'm Lidiane.\nYou already know\nwhat is the\nParker Solar...",
+                                                "she was released\nin 2018 for\nhelp the\nscientists to",
+                                                "find out\ninformations about\nthe sun and your\ninfluence on",
+                                                "solar system.\nParker traveled\ncloser to the sun\nthan any",
+                                                "another object.\n3 years after the\nlaunch, the\nParker finally\nhas arrived!",
+                                                "Want to know more?\nTalk to Dani!\n"
                                             ],
                                             "avatarId": ""
                                         },
@@ -2537,7 +2537,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Missão concluída!"
+                                                "Mission accomplished!"
                                             ],
                                             "avatarId": ""
                                         },
@@ -2551,21 +2551,7 @@
                                         "id": "4a1058b7-24f8-4935-a581-a55131928ce3"
                                     }
                                 ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Seja bem vindo\nà CRADT. Aqui \nvocê resolve",
-                                                "seus assuntos\nacadêmicos, como\ndiplomas e \ndeclarações.",
-                                                "Vejo que você \nainda não falou \ncom o coordenador \ndo seu curso.",
-                                                "Procure-o no bloco\nAdministrativo no\npiso superior."
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "eeca8878-3057-4b84-8de6-c840986310a3"
-                                    }
-                                ]
+                                "false": []
                             },
                             "id": "06e0806f-dc4c-4b56-94ec-b3c71ec9dccf"
                         }
@@ -2576,28 +2562,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "50723f64-c45c-41e5-8d1b-4150e5b777b7",
-                    "x": 20,
-                    "y": 1
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "9c5124c2-81f4-4263-9f77-8afa45319345",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "collisionGroup": "",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "fec83514-59d5-42a5-8fd8-8e952769dfdf",
-                    "x": 13,
+                    "x": 8,
                     "y": 1
                 },
                 {
@@ -2616,10 +2581,10 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Olá, sou Ana,\ncientista da NASA.",
-                                    "A Parker ainda\ndescobriu que essa\nenrugação se \nalinham com ",
-                                    "atividade solar\ne ajuda os\ncientistas a \naprender os eventos",
-                                    "no sol que afetam\na atmosfera e o\nvento solar."
+                                    "Hi, I'm Ana,\nNASA scientist.",
+                                    "Parker still\nfound out that this\nwrinkle if\nalign with",
+                                    "solar activity\nand help the\nscientists to\nlearn the events",
+                                    "in the sun that affect\nthe atmosphere and the\nsolar wind."
                                 ],
                                 "avatarId": ""
                             },
@@ -2660,12 +2625,12 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Mas, o que encontraram \nno sol?\n",
-                                    "Em 2019 a Parker \nencontrou \nestruturas \nmagnéticas em ",
-                                    "zig-zag no vento\nsolar.Os zig-zags \nsão manchas \nligadas com ",
-                                    "funis magnéticos\nque mergulham na\nsuperfície visível\ndo sol.",
-                                    "Sua próxima missão \né conversar nosso \ncientista espacial.",
-                                    "Missão concluída!"
+                                    "But what did they find?\nIn the sun?\n",
+                                    "In 2019 Parker\nfound\nstructures\nmagnetic in",
+                                    "zigzag in the wind\nsolar.The zig-zags\nare stains\nlinked with",
+                                    "magnetic funnels\nthat dive into\nvisible surface\nof the sun.",
+                                    "your next mission\nis to talk our\nspace scientist.",
+                                    "Mission accomplished!"
                                 ],
                                 "avatarId": ""
                             },
@@ -2678,8 +2643,8 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "8ea2551d-2572-4640-ab33-9449a761f242",
-                    "x": 5,
-                    "y": 2
+                    "x": 18,
+                    "y": 1
                 }
             ],
             "triggers": [
@@ -2739,7 +2704,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Fale com a\nMariana para\nliberar o acesso."
+                                                "Próximo nível."
                                             ],
                                             "avatarId": ""
                                         },
@@ -2785,7 +2750,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Fale com a\nAmanda para\nliberar o acesso."
+                                                "Próximo nível."
                                             ],
                                             "avatarId": ""
                                         },
@@ -4072,7 +4037,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "d289fe0d-6413-4e68-93e0-f6d923a55315",
-                                "x": 21,
+                                "x": 20,
                                 "y": 21,
                                 "direction": "",
                                 "fadeSpeed": "2"
