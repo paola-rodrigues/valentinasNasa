@@ -2502,60 +2502,7 @@
                     "paletteId": "",
                     "isPinned": false,
                     "collisionGroup": "",
-                    "script": [
-                        {
-                            "command": "EVENT_IF_TRUE",
-                            "args": {
-                                "variable": "4",
-                                "__collapseElse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_SET_TRUE",
-                                        "args": {
-                                            "variable": "6"
-                                        },
-                                        "id": "24c3ca37-86f5-4bf6-972b-2abda207ebc9"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Hi, I'm Lidiane.\nYou already know\nwhat is the\nParker Solar...",
-                                                "she was released\nin 2018 for\nhelp the\nscientists to",
-                                                "find out\ninformations about\nthe sun and your\ninfluence on",
-                                                "solar system.\nParker traveled\ncloser to the sun\nthan any",
-                                                "another object.\n3 years after the\nlaunch, the\nParker finally\nhas arrived!",
-                                                "Want to know more?\nTalk to Dani!\n"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "6f6d2eb3-d326-4a2f-b08c-5d8d14c4767d"
-                                    },
-                                    {
-                                        "command": "EVENT_TEXT",
-                                        "args": {
-                                            "text": [
-                                                "Mission accomplished!"
-                                            ],
-                                            "avatarId": ""
-                                        },
-                                        "id": "b14f6d65-4c9f-4a13-b220-935594dd1c06"
-                                    },
-                                    {
-                                        "command": "EVENT_INC_VALUE",
-                                        "args": {
-                                            "variable": "11"
-                                        },
-                                        "id": "4a1058b7-24f8-4935-a581-a55131928ce3"
-                                    }
-                                ],
-                                "false": []
-                            },
-                            "id": "06e0806f-dc4c-4b56-94ec-b3c71ec9dccf"
-                        }
-                    ],
+                    "script": [],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -2581,10 +2528,10 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Hi, I'm Ana,\nNASA scientist.",
-                                    "Parker still\nfound out that this\nwrinkle if\nalign with",
-                                    "solar activity\nand help the\nscientists to\nlearn the events",
-                                    "in the sun that affect\nthe atmosphere and the\nsolar wind."
+                                    "Hi, I'm Lidiane.\nYou already know\nwhat is the\nParker Solar...",
+                                    "she was released\nin 2018 for\nhelp the\nscientists to",
+                                    "find out\ninformations about\nthe sun and your\ninfluence on",
+                                    "solar system.\nParker traveled\ncloser to the sun\nthan any"
                                 ],
                                 "avatarId": ""
                             },
@@ -2612,15 +2559,6 @@
                     "isPinned": false,
                     "collisionGroup": "",
                     "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": "",
-                                "avatarId": "",
-                                "__collapse": true
-                            },
-                            "id": "c780b899-9c7e-4815-bf82-d575a7533aae"
-                        },
                         {
                             "command": "EVENT_TEXT",
                             "args": {
@@ -17185,7 +17123,7 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 293,
+        "worldScrollX": 434,
         "worldScrollY": 467,
         "zoom": 117.38104508226479,
         "customColorsEnabled": true,

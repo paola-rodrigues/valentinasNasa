@@ -1285,7 +1285,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Mission accomplished!"
+                                    "Mission \naccomplished!"
                                 ],
                                 "avatarId": "",
                                 "__collapse": false
@@ -2351,7 +2351,7 @@
                             "command": "EVENT_TEXT",
                             "args": {
                                 "text": [
-                                    "Mission accomplished!"
+                                    "Mission \naccomplished!"
                                 ],
                                 "avatarId": ""
                             },
@@ -2392,7 +2392,7 @@
                                     "how the\ntemperature\nmaximum it reaches\nthe probe is from",
                                     "2,500F and within\nstay in temperature\ncomfortable\n environment.",
                                     "go and find \nMP board",
-                                    "Mission accomplished!"
+                                    "Mission \naccomplished!"
                                 ],
                                 "avatarId": ""
                             },
@@ -2531,7 +2531,8 @@
                                     "Hi, I'm Lidiane.\nYou already know\nwhat is the\nParker Solar...",
                                     "she was released\nin 2018 for\nhelp the\nscientists to",
                                     "find out\ninformations about\nthe sun and your\ninfluence on",
-                                    "solar system.\nParker traveled\ncloser to the sun\nthan any"
+                                    "solar system.\nParker traveled\ncloser to the sun\nthan any",
+                                    "Mission \naccomplished!"
                                 ],
                                 "avatarId": ""
                             },
@@ -2568,7 +2569,7 @@
                                     "zigzag in the wind\nsolar.The zig-zags\nare stains\nlinked with",
                                     "magnetic funnels\nthat dive into\nvisible surface\nof the sun.",
                                     "your next mission\nis to talk our\nspace scientist.",
-                                    "Mission accomplished!"
+                                    "Mission \naccomplished!"
                                 ],
                                 "avatarId": ""
                             },
@@ -2642,7 +2643,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Próximo nível."
+                                                "Next level."
                                             ],
                                             "avatarId": ""
                                         },
@@ -2688,7 +2689,7 @@
                                         "command": "EVENT_TEXT",
                                         "args": {
                                             "text": [
-                                                "Próximo nível."
+                                                "Next level."
                                             ],
                                             "avatarId": ""
                                         },
@@ -17123,7 +17124,7 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 434,
+        "worldScrollX": 266,
         "worldScrollY": 467,
         "zoom": 117.38104508226479,
         "customColorsEnabled": true,

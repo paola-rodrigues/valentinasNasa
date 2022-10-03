@@ -502,7 +502,7 @@ Area                                    Addr        Size        Decimal Bytes (A
      00000700  ___size_SGB_border_map             border
      00000B7D  l__CODE                         
      00000D7D  s__HOME                         
-     00000FA4  l__CODE_7                       
+     00000F9E  l__CODE_7                       
      00001280  ___size_SGB_border_chr             border
      00001902  l__DATA                         
      00002000  _rROMB0                            
@@ -1380,7 +1380,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_7                             00074000    00000FA4 =        4004. bytes (REL,CON)
+_CODE_7                             00074000    00000F9E =        3998. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1439,7 +1439,7 @@ Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_7                             00074000    00000FA4 =        4004. bytes (REL,CON)
+_CODE_7                             00074000    00000F9E =        3998. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
@@ -1471,160 +1471,160 @@ _CODE_7                             00074000    00000FA4 =        4004. bytes (R
      00074847  _script_s4_init                    script_s4_init
      0007485D  _script_s4t0_interact              script_s4t0_interact
      0007488D  _script_s4t1_interact              script_s4t1_interact
-     000748F0  _script_s4t2_interact              script_s4t2_interact
-     00074953  _script_s5t0_interact              script_s5t0_interact
-     00074983  _script_s6t0_interact              script_s6t0_interact
-     000749B3  ___func_spritesheet_0              spritesheet_0
-     000749B3  _spritesheet_0_metasprite_0        spritesheet_0
-     000749BF  _spritesheet_0_metasprite_1        spritesheet_0
-     000749CB  _spritesheet_0_metasprite_2        spritesheet_0
-     000749D7  _spritesheet_0_metasprite_3        spritesheet_0
-     000749E3  _spritesheet_0_metasprite_4        spritesheet_0
-     000749EF  _spritesheet_0_metasprite_5        spritesheet_0
-     000749FB  _spritesheet_0_metasprite_6        spritesheet_0
-     00074A07  _spritesheet_0_metasprite_7        spritesheet_0
-     00074A13  _spritesheet_0_metasprites         spritesheet_0
-     00074A2B  _spritesheet_0_animations          spritesheet_0
-     00074A3B  _spritesheet_0_animations_lookup   spritesheet_0
-     00074A3D  _spritesheet_0                     spritesheet_0
-     00074A50  ___func_spritesheet_1              spritesheet_1
-     00074A50  _spritesheet_1_metasprite_0        spritesheet_1
-     00074A5C  _spritesheet_1_metasprite_1        spritesheet_1
-     00074A68  _spritesheet_1_metasprite_2        spritesheet_1
-     00074A74  _spritesheet_1_metasprite_3        spritesheet_1
-     00074A80  _spritesheet_1_metasprite_4        spritesheet_1
-     00074A8C  _spritesheet_1_metasprite_5        spritesheet_1
+     000748ED  _script_s4t2_interact              script_s4t2_interact
+     0007494D  _script_s5t0_interact              script_s5t0_interact
+     0007497D  _script_s6t0_interact              script_s6t0_interact
+     000749AD  ___func_spritesheet_0              spritesheet_0
+     000749AD  _spritesheet_0_metasprite_0        spritesheet_0
+     000749B9  _spritesheet_0_metasprite_1        spritesheet_0
+     000749C5  _spritesheet_0_metasprite_2        spritesheet_0
+     000749D1  _spritesheet_0_metasprite_3        spritesheet_0
+     000749DD  _spritesheet_0_metasprite_4        spritesheet_0
+     000749E9  _spritesheet_0_metasprite_5        spritesheet_0
+     000749F5  _spritesheet_0_metasprite_6        spritesheet_0
+     00074A01  _spritesheet_0_metasprite_7        spritesheet_0
+     00074A0D  _spritesheet_0_metasprites         spritesheet_0
+     00074A25  _spritesheet_0_animations          spritesheet_0
+     00074A35  _spritesheet_0_animations_lookup   spritesheet_0
+     00074A37  _spritesheet_0                     spritesheet_0
+     00074A4A  ___func_spritesheet_1              spritesheet_1
+     00074A4A  _spritesheet_1_metasprite_0        spritesheet_1
+     00074A56  _spritesheet_1_metasprite_1        spritesheet_1
+     00074A62  _spritesheet_1_metasprite_2        spritesheet_1
+     00074A6E  _spritesheet_1_metasprite_3        spritesheet_1
+     00074A7A  _spritesheet_1_metasprite_4        spritesheet_1
+     00074A86  _spritesheet_1_metasprite_5        spritesheet_1
 ASxxxx Linker V03.00 + NoICE + sdld,  page 47.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_7                             00074000    00000FA4 =        4004. bytes (REL,CON)
+_CODE_7                             00074000    00000F9E =        3998. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00074A98  _spritesheet_1_metasprite_6        spritesheet_1
-     00074AA4  _spritesheet_1_metasprite_7        spritesheet_1
-     00074AB0  _spritesheet_1_metasprites         spritesheet_1
-     00074AC8  _spritesheet_1_animations          spritesheet_1
-     00074AD8  _spritesheet_1_animations_lookup   spritesheet_1
-     00074ADA  _spritesheet_1                     spritesheet_1
-     00074AED  ___func_spritesheet_2              spritesheet_2
-     00074AED  _spritesheet_2_metasprite_0        spritesheet_2
-     00074AF5  _spritesheet_2_metasprite_1        spritesheet_2
-     00074AFD  _spritesheet_2_metasprites         spritesheet_2
-     00074B01  _spritesheet_2_animations          spritesheet_2
-     00074B11  _spritesheet_2_animations_lookup   spritesheet_2
-     00074B13  _spritesheet_2                     spritesheet_2
-     00074B26  ___func_spritesheet_3              spritesheet_3
-     00074B26  _spritesheet_3_metasprite_0        spritesheet_3
-     00074B32  _spritesheet_3_metasprite_1        spritesheet_3
-     00074B3E  _spritesheet_3_metasprite_2        spritesheet_3
-     00074B4A  _spritesheet_3_metasprite_3        spritesheet_3
-     00074B56  _spritesheet_3_metasprite_4        spritesheet_3
-     00074B62  _spritesheet_3_metasprite_5        spritesheet_3
-     00074B6E  _spritesheet_3_metasprite_6        spritesheet_3
-     00074B7A  _spritesheet_3_metasprite_7        spritesheet_3
-     00074B86  _spritesheet_3_metasprites         spritesheet_3
-     00074B9E  _spritesheet_3_animations          spritesheet_3
-     00074BAE  _spritesheet_3_animations_lookup   spritesheet_3
-     00074BB0  _spritesheet_3                     spritesheet_3
-     00074BC3  ___func_spritesheet_4              spritesheet_4
-     00074BC3  _spritesheet_4_metasprite_0        spritesheet_4
-     00074BCF  _spritesheet_4_metasprite_1        spritesheet_4
-     00074BDB  _spritesheet_4_metasprite_2        spritesheet_4
-     00074BE7  _spritesheet_4_metasprite_3        spritesheet_4
-     00074BF3  _spritesheet_4_metasprite_4        spritesheet_4
-     00074BFF  _spritesheet_4_metasprite_5        spritesheet_4
-     00074C0B  _spritesheet_4_metasprite_6        spritesheet_4
-     00074C17  _spritesheet_4_metasprite_7        spritesheet_4
-     00074C23  _spritesheet_4_metasprites         spritesheet_4
-     00074C3B  _spritesheet_4_animations          spritesheet_4
-     00074C4B  _spritesheet_4_animations_lookup   spritesheet_4
-     00074C4D  _spritesheet_4                     spritesheet_4
-     00074C60  ___func_spritesheet_5              spritesheet_5
-     00074C60  _spritesheet_5_metasprite_0        spritesheet_5
-     00074C6C  _spritesheet_5_metasprite_1        spritesheet_5
-     00074C78  _spritesheet_5_metasprite_2        spritesheet_5
-     00074C84  _spritesheet_5_metasprite_3        spritesheet_5
-     00074C90  _spritesheet_5_metasprite_4        spritesheet_5
-     00074C9C  _spritesheet_5_metasprite_5        spritesheet_5
-     00074CA8  _spritesheet_5_metasprite_6        spritesheet_5
-     00074CB4  _spritesheet_5_metasprite_7        spritesheet_5
-     00074CC0  _spritesheet_5_metasprites         spritesheet_5
-     00074CD8  _spritesheet_5_animations          spritesheet_5
-     00074CE8  _spritesheet_5_animations_lookup   spritesheet_5
+     00074A92  _spritesheet_1_metasprite_6        spritesheet_1
+     00074A9E  _spritesheet_1_metasprite_7        spritesheet_1
+     00074AAA  _spritesheet_1_metasprites         spritesheet_1
+     00074AC2  _spritesheet_1_animations          spritesheet_1
+     00074AD2  _spritesheet_1_animations_lookup   spritesheet_1
+     00074AD4  _spritesheet_1                     spritesheet_1
+     00074AE7  ___func_spritesheet_2              spritesheet_2
+     00074AE7  _spritesheet_2_metasprite_0        spritesheet_2
+     00074AEF  _spritesheet_2_metasprite_1        spritesheet_2
+     00074AF7  _spritesheet_2_metasprites         spritesheet_2
+     00074AFB  _spritesheet_2_animations          spritesheet_2
+     00074B0B  _spritesheet_2_animations_lookup   spritesheet_2
+     00074B0D  _spritesheet_2                     spritesheet_2
+     00074B20  ___func_spritesheet_3              spritesheet_3
+     00074B20  _spritesheet_3_metasprite_0        spritesheet_3
+     00074B2C  _spritesheet_3_metasprite_1        spritesheet_3
+     00074B38  _spritesheet_3_metasprite_2        spritesheet_3
+     00074B44  _spritesheet_3_metasprite_3        spritesheet_3
+     00074B50  _spritesheet_3_metasprite_4        spritesheet_3
+     00074B5C  _spritesheet_3_metasprite_5        spritesheet_3
+     00074B68  _spritesheet_3_metasprite_6        spritesheet_3
+     00074B74  _spritesheet_3_metasprite_7        spritesheet_3
+     00074B80  _spritesheet_3_metasprites         spritesheet_3
+     00074B98  _spritesheet_3_animations          spritesheet_3
+     00074BA8  _spritesheet_3_animations_lookup   spritesheet_3
+     00074BAA  _spritesheet_3                     spritesheet_3
+     00074BBD  ___func_spritesheet_4              spritesheet_4
+     00074BBD  _spritesheet_4_metasprite_0        spritesheet_4
+     00074BC9  _spritesheet_4_metasprite_1        spritesheet_4
+     00074BD5  _spritesheet_4_metasprite_2        spritesheet_4
+     00074BE1  _spritesheet_4_metasprite_3        spritesheet_4
+     00074BED  _spritesheet_4_metasprite_4        spritesheet_4
+     00074BF9  _spritesheet_4_metasprite_5        spritesheet_4
+     00074C05  _spritesheet_4_metasprite_6        spritesheet_4
+     00074C11  _spritesheet_4_metasprite_7        spritesheet_4
+     00074C1D  _spritesheet_4_metasprites         spritesheet_4
+     00074C35  _spritesheet_4_animations          spritesheet_4
+     00074C45  _spritesheet_4_animations_lookup   spritesheet_4
+     00074C47  _spritesheet_4                     spritesheet_4
+     00074C5A  ___func_spritesheet_5              spritesheet_5
+     00074C5A  _spritesheet_5_metasprite_0        spritesheet_5
+     00074C66  _spritesheet_5_metasprite_1        spritesheet_5
+     00074C72  _spritesheet_5_metasprite_2        spritesheet_5
+     00074C7E  _spritesheet_5_metasprite_3        spritesheet_5
+     00074C8A  _spritesheet_5_metasprite_4        spritesheet_5
+     00074C96  _spritesheet_5_metasprite_5        spritesheet_5
+     00074CA2  _spritesheet_5_metasprite_6        spritesheet_5
+     00074CAE  _spritesheet_5_metasprite_7        spritesheet_5
+     00074CBA  _spritesheet_5_metasprites         spritesheet_5
+     00074CD2  _spritesheet_5_animations          spritesheet_5
+     00074CE2  _spritesheet_5_animations_lookup   spritesheet_5
 ASxxxx Linker V03.00 + NoICE + sdld,  page 48.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_7                             00074000    00000FA4 =        4004. bytes (REL,CON)
+_CODE_7                             00074000    00000F9E =        3998. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00074CEA  _spritesheet_5                     spritesheet_5
-     00074CFD  ___func_spritesheet_6              spritesheet_6
-     00074CFD  _spritesheet_6_metasprite_0        spritesheet_6
-     00074D09  _spritesheet_6_metasprite_1        spritesheet_6
-     00074D15  _spritesheet_6_metasprite_2        spritesheet_6
-     00074D21  _spritesheet_6_metasprite_3        spritesheet_6
-     00074D2D  _spritesheet_6_metasprite_4        spritesheet_6
-     00074D39  _spritesheet_6_metasprite_5        spritesheet_6
-     00074D45  _spritesheet_6_metasprite_6        spritesheet_6
-     00074D51  _spritesheet_6_metasprite_7        spritesheet_6
-     00074D5D  _spritesheet_6_metasprites         spritesheet_6
-     00074D75  _spritesheet_6_animations          spritesheet_6
-     00074D85  _spritesheet_6_animations_lookup   spritesheet_6
-     00074D87  _spritesheet_6                     spritesheet_6
-     00074D9A  ___func_spritesheet_7              spritesheet_7
-     00074D9A  _spritesheet_7_metasprite_0        spritesheet_7
-     00074DA6  _spritesheet_7_metasprite_1        spritesheet_7
-     00074DB2  _spritesheet_7_metasprite_2        spritesheet_7
-     00074DBE  _spritesheet_7_metasprite_3        spritesheet_7
-     00074DCA  _spritesheet_7_metasprite_4        spritesheet_7
-     00074DD6  _spritesheet_7_metasprite_5        spritesheet_7
-     00074DE2  _spritesheet_7_metasprite_6        spritesheet_7
-     00074DEE  _spritesheet_7_metasprite_7        spritesheet_7
-     00074DFA  _spritesheet_7_metasprites         spritesheet_7
-     00074E12  _spritesheet_7_animations          spritesheet_7
-     00074E22  _spritesheet_7_animations_lookup   spritesheet_7
-     00074E24  _spritesheet_7                     spritesheet_7
-     00074E37  ___func_spritesheet_8              spritesheet_8
-     00074E37  _spritesheet_8_metasprite_0        spritesheet_8
-     00074E43  _spritesheet_8_metasprites         spritesheet_8
-     00074E45  _spritesheet_8_animations          spritesheet_8
-     00074E55  _spritesheet_8_animations_lookup   spritesheet_8
-     00074E57  _spritesheet_8                     spritesheet_8
-     00074E6A  ___func_spritesheet_9              spritesheet_9
-     00074E6A  _spritesheet_9_metasprite_0        spritesheet_9
-     00074E76  _spritesheet_9_metasprite_1        spritesheet_9
-     00074E82  _spritesheet_9_metasprite_2        spritesheet_9
-     00074E8E  _spritesheet_9_metasprite_3        spritesheet_9
-     00074E9A  _spritesheet_9_metasprite_4        spritesheet_9
-     00074EA6  _spritesheet_9_metasprite_5        spritesheet_9
-     00074EB2  _spritesheet_9_metasprite_6        spritesheet_9
-     00074EBE  _spritesheet_9_metasprite_7        spritesheet_9
-     00074ECA  _spritesheet_9_metasprites         spritesheet_9
-     00074EE2  _spritesheet_9_animations          spritesheet_9
-     00074EF2  _spritesheet_9_animations_lookup   spritesheet_9
-     00074EF4  _spritesheet_9                     spritesheet_9
-     00074F07  _spritesheet_none_metasprite       spritesheet_none
-     00074F0B  _spritesheet_none_metasprites      spritesheet_none
-     00074F0D  _spritesheet_none                  spritesheet_none
-     00074F20  ___func_tileset_13                 tileset_13
-     00074F20  _tileset_13                        tileset_13
+     00074CE4  _spritesheet_5                     spritesheet_5
+     00074CF7  ___func_spritesheet_6              spritesheet_6
+     00074CF7  _spritesheet_6_metasprite_0        spritesheet_6
+     00074D03  _spritesheet_6_metasprite_1        spritesheet_6
+     00074D0F  _spritesheet_6_metasprite_2        spritesheet_6
+     00074D1B  _spritesheet_6_metasprite_3        spritesheet_6
+     00074D27  _spritesheet_6_metasprite_4        spritesheet_6
+     00074D33  _spritesheet_6_metasprite_5        spritesheet_6
+     00074D3F  _spritesheet_6_metasprite_6        spritesheet_6
+     00074D4B  _spritesheet_6_metasprite_7        spritesheet_6
+     00074D57  _spritesheet_6_metasprites         spritesheet_6
+     00074D6F  _spritesheet_6_animations          spritesheet_6
+     00074D7F  _spritesheet_6_animations_lookup   spritesheet_6
+     00074D81  _spritesheet_6                     spritesheet_6
+     00074D94  ___func_spritesheet_7              spritesheet_7
+     00074D94  _spritesheet_7_metasprite_0        spritesheet_7
+     00074DA0  _spritesheet_7_metasprite_1        spritesheet_7
+     00074DAC  _spritesheet_7_metasprite_2        spritesheet_7
+     00074DB8  _spritesheet_7_metasprite_3        spritesheet_7
+     00074DC4  _spritesheet_7_metasprite_4        spritesheet_7
+     00074DD0  _spritesheet_7_metasprite_5        spritesheet_7
+     00074DDC  _spritesheet_7_metasprite_6        spritesheet_7
+     00074DE8  _spritesheet_7_metasprite_7        spritesheet_7
+     00074DF4  _spritesheet_7_metasprites         spritesheet_7
+     00074E0C  _spritesheet_7_animations          spritesheet_7
+     00074E1C  _spritesheet_7_animations_lookup   spritesheet_7
+     00074E1E  _spritesheet_7                     spritesheet_7
+     00074E31  ___func_spritesheet_8              spritesheet_8
+     00074E31  _spritesheet_8_metasprite_0        spritesheet_8
+     00074E3D  _spritesheet_8_metasprites         spritesheet_8
+     00074E3F  _spritesheet_8_animations          spritesheet_8
+     00074E4F  _spritesheet_8_animations_lookup   spritesheet_8
+     00074E51  _spritesheet_8                     spritesheet_8
+     00074E64  ___func_spritesheet_9              spritesheet_9
+     00074E64  _spritesheet_9_metasprite_0        spritesheet_9
+     00074E70  _spritesheet_9_metasprite_1        spritesheet_9
+     00074E7C  _spritesheet_9_metasprite_2        spritesheet_9
+     00074E88  _spritesheet_9_metasprite_3        spritesheet_9
+     00074E94  _spritesheet_9_metasprite_4        spritesheet_9
+     00074EA0  _spritesheet_9_metasprite_5        spritesheet_9
+     00074EAC  _spritesheet_9_metasprite_6        spritesheet_9
+     00074EB8  _spritesheet_9_metasprite_7        spritesheet_9
+     00074EC4  _spritesheet_9_metasprites         spritesheet_9
+     00074EDC  _spritesheet_9_animations          spritesheet_9
+     00074EEC  _spritesheet_9_animations_lookup   spritesheet_9
+     00074EEE  _spritesheet_9                     spritesheet_9
+     00074F01  _spritesheet_none_metasprite       spritesheet_none
+     00074F05  _spritesheet_none_metasprites      spritesheet_none
+     00074F07  _spritesheet_none                  spritesheet_none
+     00074F1A  ___func_tileset_13                 tileset_13
+     00074F1A  _tileset_13                        tileset_13
 ASxxxx Linker V03.00 + NoICE + sdld,  page 49.
 Hexadecimal  [32-Bits]
 
 Area                                    Addr        Size        Decimal Bytes (Attributes)
 --------------------------------        ----        ----        ------- ----- ------------
-_CODE_7                             00074000    00000FA4 =        4004. bytes (REL,CON)
+_CODE_7                             00074000    00000F9E =        3998. bytes (REL,CON)
 
       Value  Global                              Global Defined In Module
       -----  --------------------------------   ------------------------
-     00074F62  ___func_tileset_7                  tileset_7
-     00074F62  _tileset_7                         tileset_7
+     00074F5C  ___func_tileset_7                  tileset_7
+     00074F5C  _tileset_7                         tileset_7
 
 ASxxxx Linker V03.00 + NoICE + sdld,  page 50.
 Hexadecimal  [32-Bits]
